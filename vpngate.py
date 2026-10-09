@@ -297,9 +297,31 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.sin.fan:443,cdn.204910.best:443,www.mfyx.cn:443,p.etime.vip:443,cdn.ctn32.us.kg:443,cf.877774.xyz:443,spring.io:443,"
-        "cf.nyanya.moe:443,www.sloomb.com:443,op.chinwa.eu.cc:443,www.leics.police.uk:443,securecircle.com:443,www.shopify.com:443,"
-        "www.carousell.sg:443,www.dbs.com.sg:443,openai.com:443,linear.app:443,www.bilibili.com:443,uspto.gov:443,www.vmware.com:443",
+        "www.mfyx.cn:443,eii.at:443,cdn.7zz.cn:443,cf.xreak.top:443,"
+        "saas.072159.xyz:443,cloudflare.idc.rocks:443,cdn.204910.best:443,saas.sin.fan:443,"
+        "www.dbs.com.sg:443,constitution.congress.gov:443,academy.7shifts.com:443,kickstarter.com:443,"
+        "www.sage.com:443,www.shopify.com:443,www.broadcom.com:443,linear.app:443,"
+        "tt.78607323.xyz:443,m.iyf.tv:443,www.akasantech.com:443,dongbanghong.com:443,"
+        "www.blibli.com:443,www.jp.pima.gov:443,www.vmware.com:443,openai.com:443,"
+        "markmonitor.com:443,www.leics.police.uk:443,www.sloomb.com:443,www.udacity.com:443,"
+        "coreweave.com:443,kniu.cc:443,uspto.gov:443,cf-cname.xingpingcn.top:443,"
+        "www.bis.gov:443,53.fs1.hubspotusercontent-na1.net:443,singapore.com:443,clickhouse.com:443,"
+        "academy.mastercard.com:443,dev.graco.com:443,images.chesscomfiles.com:443,hlevakha.gov.ua:443,"
+        "pubs.acs.org:443,zoominfo.com:443,centerofthewest.org:443,www.ntu.edu.sg:443,"
+        "hsl.upstate.edu:443,www.trump.com:443,mskcc.org:443,shen6011.pages.dev:443,"
+        "www.apnic.net:443,www.eccu.edu:443,my.vultr.com:443,pure.coupert.com:443,"
+        "newsroom.avalara.com:443,store.ubisoft.com:443,go1.dematic.com:443,kick.com:443,"
+        "digitalocean.com:443,www.moc.gov.tw:443,www.spacex.com:443,www.wto.org:443,"
+        "gitlab.com:443,hubspot.com:443,salaryexpert.com:443,www.roche.com:443,"
+        "qoj.ac:443,envato.com:443,fbi.gov:443,dexari.com:443,"
+        "development.ihg.com:443,bestcf.030101.xyz:443,www.npmjs.com:443,buyshoes.shop:443,"
+        "www.mediafire.com:443,elegantthemes.com:443,deepseek.com.hk:443,kali.download:443,"
+        "www.speedtest.net:443,cdn.cnno.de:443,api.gzcrtw.com:443,hentaiverse.org:443,"
+        "webn.cc:443,page.mercer.com:443,www.chess.com:443,debot.ai:443,"
+        "investor.apple.com:443,w3.org:443,cf2.996616.xyz:443,mogas.com:443,"
+        "www.pixelexperience.org:443,www.loc.gov:443,www.elysee.fr:443,builtbybuffalo.com:443,"
+        "api.uniapi.io:443,bbs.alipansou.com:443,cnllm.com:443,mail.murata.com:443,"
+        "224322.xyz:443,resources.biginterview.com:443,icook.tw:443",
     ).split(",")
     if h.strip()
 ]
